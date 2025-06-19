@@ -17,6 +17,11 @@
   },
   "dependencies": {
     "@aws-sdk/client-bedrock": "^3.831.0",
-    "@aws-sdk/client-bedrock-runtime": "^3.830.0"
+    "@aws-sdk/client-bedrock-runtime": "^3.830.0",
+    "@langchain/aws": "^0.1.11",
+    "@langchain/community": "^0.3.46",
+    "@langchain/core": "^0.3.59",
+    "langchain": "^0.3.28",
+    "puppeteer": "^24.10.2"
   }
 }
