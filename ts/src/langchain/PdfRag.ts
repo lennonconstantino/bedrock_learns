@@ -4,9 +4,10 @@ import { MemoryVectorStore } from 'langchain/vectorstores/memory'
 import { PDFLoader } from '@langchain/community/document_loaders/fs/pdf';
 import { ChatPromptTemplate } from '@langchain/core/prompts';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter'
+import { json } from "stream/consumers";
 
 
-const AWS_REGION = 'us-west-2'
+const AWS_REGION = 'us-east-1'
 
 const model = new Bedrock({
     model: 'amazon.titan-text-express-v1',

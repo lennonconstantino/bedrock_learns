@@ -1,0 +1,5 @@
+POST https:://eyhfglx2j.execute-api.eu-west-1.amazonaws.com/prod/text?points=3
+content-Type: application/json
+{
+    "text" : "Vicente was a jazzman, a saxophonist with a smooth, soulful sount that could make incredible melodies"
+}
