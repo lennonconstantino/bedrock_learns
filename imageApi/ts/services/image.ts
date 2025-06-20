@@ -7,7 +7,7 @@ const AWS_REGION_BEDROCK = "us-west-2";
 const S3_BUCKET = process.env.BUCKET_NAME
 
 const client = new BedrockRuntimeClient({ region: AWS_REGION_BEDROCK });
-const s3Client = new S3Client({region: "eu-west-1"});
+const s3Client = new S3Client();
 
 export async function handler(event: APIGatewayProxyEvent, context: Context): Promise<APIGatewayProxyResult> {
 

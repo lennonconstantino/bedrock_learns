@@ -1,4 +1,4 @@
-POST https://sdhnefxsw7.execute-api.eu-west-1.amazonaws.com/prod/gdpr
+POST https://4lallc8j65.execute-api.eu-west-1.amazonaws.com/prod/gdpr
 Content-Type: application/json
 
 {
