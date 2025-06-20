@@ -1,0 +1,6 @@
+POST https://668piu8qih.execute-api.us-east-1.amazonaws.com/prod/image
+content-Type: application/json
+
+{
+    "description": "a cat on a mountain"
+}

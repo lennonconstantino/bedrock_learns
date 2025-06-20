@@ -1,0 +1,7 @@
+POST https://ezdc0c04l8.execute-api.us-east-1.amazonaws.com/prod/image
+Content-Type: application/json
+
+{
+    "description": "crocodile in the beach"
+}
+###

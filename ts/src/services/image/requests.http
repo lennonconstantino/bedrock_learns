@@ -1,0 +1,7 @@
+POST https://ck2v3a095i.execute-api.us-west-2.amazonaws.com/prod/image
+Content-Type: application/json
+
+{
+    "description": "raining cats and dogs"
+}
+###
